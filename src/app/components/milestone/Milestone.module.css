@@ -1,0 +1,74 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  background: #fff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.heading {
+  font-size: 7rem;
+  font-weight: bold;
+  color: #003743;
+  margin-bottom: 48px;
+}
+
+.milestones {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.milestoneItem {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #003743;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #003743;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 150px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.milestoneItem p {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 5px;
+  color: #003743;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .milestones {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .milestoneItem {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .milestoneItem {
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+}
