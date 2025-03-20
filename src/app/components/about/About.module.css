@@ -6,11 +6,11 @@
 }
 
 .headingLarge {
-    font-size: 7rem;
-    font-weight: bold;
-    color: #003743;
-    margin-bottom: 32px;
-    margin-left: 32px;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #003743;
+  margin-bottom: 32px;
+  margin-left: 32px;
 }
 
 .heading {
@@ -68,6 +68,12 @@
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+  .headingLarge {
+    font-size: 5rem;
+    margin-bottom: 28px;
+    margin-left: 28px;
+  }
+
   .content {
     flex-direction: column;
     text-align: center;
@@ -84,6 +90,12 @@
 }
 
 @media (max-width: 600px) {
+  .headingLarge {
+    font-size: 3.2rem;
+    margin-bottom: 24px;
+    margin-left: 24px;
+  }
+  
   .heading {
     font-size: 2rem;
   }
