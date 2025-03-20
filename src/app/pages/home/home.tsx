@@ -1,4 +1,4 @@
-import { About, Hero, Milestone } from "@/app/components"
+import { About, Hero, Milestone, Specialties } from "@/app/components"
 
 export const Home = () => {
   return (
@@ -6,6 +6,7 @@ export const Home = () => {
       <Hero />
       <Milestone />
       <About />
+      <Specialties />
     </main>
   )
 }
